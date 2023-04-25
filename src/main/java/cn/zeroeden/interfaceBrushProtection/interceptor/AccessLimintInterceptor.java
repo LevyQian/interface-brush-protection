@@ -56,7 +56,7 @@ public class AccessLimintInterceptor implements HandlerInterceptor {
      */
     public static final String COUNT_PREFIX = "COUNT";
 
-
+    @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 //        简单实现
 //        String uri = request.getRequestURI();

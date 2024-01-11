@@ -26,9 +26,8 @@
   ![图片](https://mmbiz.qpic.cn/mmbiz/sXiaukvjR0RDkGy5RrLDBubrl4XJDBbWQgianmibicb09AtArgyS0jvibA9h8iarD7hBSG0V3qWqqeuosB5cn0QQVHqA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
-  + ```auto
-@
-Slf4j
+  + ```java
+@Slf4j
 public class AccessLimintInterceptor implements HandlerInterceptor {@
     Resource
     private RedisTemplate < String, Object > redisTemplate;

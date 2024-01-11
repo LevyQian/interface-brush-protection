@@ -150,7 +150,7 @@ public class AccessLimintInterceptor implements HandlerInterceptor {@
         return false;
     }
 }
-    ```
+```
   + **在多长时间内访问接口多少次，以及禁用的时长，则是通过与配置文件配合动态设置**
 
     ![图片](https://mmbiz.qpic.cn/mmbiz/sXiaukvjR0RDkGy5RrLDBubrl4XJDBbWQjUpopTtAnLXKV57xe9jWJ3ibd45R2ziaNOsfiajbTJDnfUMelyke3t1yg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
